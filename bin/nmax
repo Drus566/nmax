@@ -1,0 +1,6 @@
+#!/usr/bin/ruby
+
+require_relative "../lib/app"
+
+app = NMax::App.new(STDIN, ARGV[0])
+app.result_of_job
