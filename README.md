@@ -12,7 +12,7 @@ nmax - gem which gets text data and prints n maximum numbers from text
 `<input stream> | nmax <which count of numbers return>`
 example:
 ```
-cat your_40GB_file | nmax
+cat data.txt | nmax
 echo '12jh2hg1ge 90 12 0 1243278' | nmax 25
 ```
 
