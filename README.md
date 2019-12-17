@@ -11,7 +11,14 @@ nmax - gem which gets text data and prints n maximum numbers from text
 ### Use 
 ```
 cat your_40GB_file | bin/nmax 10
-echo '12jh2hg1ge 90 12 0 1243278' | bin/nmax 10
+echo '12jh2hg1ge 90 12 0 1243278' | bin/nmax 5
+```
+
+or 
+
+```
+cat your_40GB_file | nmax
+echo '12jh2hg1ge 90 12 0 1243278' | nmax 25
 ```
 
 
