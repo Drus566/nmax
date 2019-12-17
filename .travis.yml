@@ -1,7 +1,12 @@
----
-sudo: false
 language: ruby
+rvm: 2.6.3
+dist: trusty
+branches:
+  only:
+    - master
+script:
+  - |
+    bundle exec rspec &&
+    gem build nmax.gemspec
 cache: bundler
-rvm:
-  - 2.6.3
 before_install: gem install bundler -v 2.0.2
