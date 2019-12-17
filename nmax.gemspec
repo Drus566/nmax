@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'Gets text data and prints n maximum numbers from text'
   spec.license       = "MIT"
   spec.summary       = ''
+  spec.homepage      = 'https://github.com/Drus566/nmax'
 
   # # Specify which files should be added to the gem when it is released.
   # # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
