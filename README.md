@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/Drus566/nmax.svg?branch=master)](https://travis-ci.com/Drus566/nmax.svg?branch=master)
 # nmax
 nmax - gem which gets text data and prints n maximum numbers from text
   
